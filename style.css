@@ -42,6 +42,10 @@ header{
     background-image: url(./images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left center;
+    @media screen and (max-width: 600px) {
+       background-size: 30px 30px;
+       
+      }
 }
 .experience-card{
     background-color: white;
@@ -71,5 +75,10 @@ header{
 @media screen and (max-width: 600px) {
     .header-left { 
       margin-bottom: 60px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .dream-container { 
+        background-position: right bottom;
     }
 }
